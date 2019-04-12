@@ -15,7 +15,7 @@ You can automatically load all preferences via the following approach.
 1. Run `code $PROFILE`
 2. Change contents to following
 
-```shell
+```powershell
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module posh-docker
