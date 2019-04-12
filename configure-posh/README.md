@@ -1,11 +1,11 @@
 # Configuring Powershell
 
 ## Setting up environment
-Easily install the PowerShell environment via:
-
+- Easily install the PowerShell environment via:
 ```shell
 > Setup-Setup-PowerShellEnvironment.ps1
 ```
+- Install the [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline) font.
 
 ## Preparing new PowerShell instances
 You can automatically load all preferences via the following approach.
