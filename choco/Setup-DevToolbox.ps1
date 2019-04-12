@@ -4,14 +4,14 @@ choco upgrade chocolatey
 
 # Install applications
 choco install linqpad -y
-choco install toggl -y
+choco install toggl -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install franz -y
 choco install microsoft-teams -y
 choco install notepadplusplus -y
 choco install vscode -y
 choco install googlechrome -y
 choco install ccleaner -y
-choco install spotify -y
+choco install spotify -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install servicebusexplorer -y
 choco install 7zip -y
 choco install kubernetes-cli -y
@@ -31,8 +31,6 @@ choco install dropbox -y
 choco install firefox -y
 choco install git -y
 choco install postman -y
-choco install 1password -y
-choco install 1password-desktoplauncher -y
 choco install fiddler -y
 choco install grammarly -y
 choco install keepass -y
@@ -45,3 +43,6 @@ choco install nugetpackageexplorer -y
 choco install nuget.commandline -y
 choco install resharper-clt.portable -y
 choco install resharper -y
+
+# Show installed packages
+choco list --local-only
