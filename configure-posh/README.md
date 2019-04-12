@@ -1,5 +1,7 @@
 # Configuring Powershell
 
+Kudos to [Sam Neirinck](https://github.com/samneirinck) for showing me all of this.
+
 ## Setting up environment
 - Easily install the PowerShell environment via:
 ```shell
@@ -27,5 +29,3 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 ```
-
-Kudos to [Sam Neirinck](https://github.com/samneirinck) for showing me this.
