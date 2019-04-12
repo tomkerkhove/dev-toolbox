@@ -21,7 +21,11 @@ Import-Module oh-my-posh
 Import-Module posh-docker
 Set-Theme Paradox
 
-cd C:\Code\
+$defaultFolder = "C:\Code\"
+
+if (Test-Path($defaultFolder)) {
+  cd $defaultFolder
+}
 
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
