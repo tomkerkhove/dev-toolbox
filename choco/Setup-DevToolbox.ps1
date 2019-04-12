@@ -44,4 +44,4 @@ choco install lightshot -y
 choco install nugetpackageexplorer -y
 choco install nuget.commandline -y
 choco install resharper-clt.portable -y
-choco install resharpers -y
+choco install resharper -y
