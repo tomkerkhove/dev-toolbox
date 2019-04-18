@@ -5,7 +5,7 @@ Kudos to [Sam Neirinck](https://github.com/samneirinck) for showing me all of th
 ## Setting up environment
 - Easily install the PowerShell environment via:
 ```shell
-> Setup-Setup-PowerShellEnvironment.ps1
+> Setup-PowerShellEnvironment.ps1
 ```
 - Install the [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline) font.
 
