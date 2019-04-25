@@ -43,6 +43,7 @@ choco install nugetpackageexplorer -y
 choco install nuget.commandline -y
 choco install resharper-clt.portable -y
 choco install resharper -y
+choco install armclient -y
 
 # Show installed packages
 choco list --local-only
