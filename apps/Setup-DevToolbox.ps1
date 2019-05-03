@@ -44,6 +44,7 @@ choco install nuget.commandline -y
 choco install resharper-clt.portable -y
 choco install resharper -y
 choco install armclient -y
+choco install kubernetes-helm -y
 
 # Show installed packages
 choco list --local-only
