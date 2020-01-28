@@ -21,6 +21,9 @@ Import-Module oh-my-posh
 Import-Module posh-docker
 Set-Theme Paradox
 
+
+Set-Alias -Name "k" -Value "kubectl"
+
 $defaultFolder = "C:\Code\"
 
 if (Test-Path($defaultFolder)) {
