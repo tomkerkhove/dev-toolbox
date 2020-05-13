@@ -15,6 +15,8 @@ choco install spotify -y # Invalid checksum, override with --ignore-checksums if
 choco install servicebusexplorer -y
 choco install 7zip -y
 choco install kubernetes-cli -y
+choco install docker-cli
+choco install docker-desktop
 choco install docker-compose -y
 choco install minikube -y
 choco install docker-kitematic -y
