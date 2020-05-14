@@ -5,6 +5,7 @@ choco upgrade chocolatey
 # Install applications
 choco install 1password -y
 choco install 1password4 -y
+choco install adobereader -y
 choco install ccleaner -y
 choco install conemu -y
 choco install franz -y
