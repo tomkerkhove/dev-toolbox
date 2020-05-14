@@ -3,24 +3,28 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco upgrade chocolatey
 
 # Install applications
-choco install linqpad -y
-choco install toggl -y # Invalid checksum, override with --ignore-checksums if you want to
+choco install 1password -y
+choco install 1password4 -y
+choco install ccleaner -y
+choco install conemu -y
 choco install franz -y
 choco install microsoft-teams -y
 choco install notepadplusplus -y
+choco install lightshot -y
+choco install linqpad -y
+choco install slack -y
+choco install toggl -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install vscode -y
 choco install googlechrome -y
-choco install ccleaner -y
 choco install spotify -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install servicebusexplorer -y
 choco install 7zip -y
 choco install kubernetes-cli -y
-choco install docker-cli
-choco install docker-desktop
+choco install docker-cli -y
+choco install docker-desktop -y
 choco install docker-compose -y
 choco install minikube -y
 choco install docker-kitematic -y
-choco install conemu -y
 choco install vscode-docker -y
 choco install vscode-icons -y
 choco install vscode-csharp -y
@@ -47,6 +51,8 @@ choco install resharper-clt.portable -y
 choco install resharper -y
 choco install armclient -y
 choco install kubernetes-helm -y
+choco install screentogif -y
+choco install pandoc -y
 
 # Show installed packages
 choco list --local-only
