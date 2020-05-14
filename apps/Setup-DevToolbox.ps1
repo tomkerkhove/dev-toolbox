@@ -5,6 +5,7 @@ choco upgrade chocolatey
 # Install applications
 choco install 1password -y
 choco install 1password4 -y
+choco install 7zip -y
 choco install adobereader -y
 choco install ccleaner -y
 choco install conemu -y
@@ -19,7 +20,7 @@ choco install vscode -y
 choco install googlechrome -y
 choco install spotify -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install servicebusexplorer -y
-choco install 7zip -y
+choco install jetbrainstoolbox -y
 choco install kubernetes-cli -y
 choco install docker-cli -y
 choco install docker-desktop -y
