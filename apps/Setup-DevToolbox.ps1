@@ -35,6 +35,7 @@ choco install vscode-csharp -y
 choco install vscode-powershell -y
 choco install vscode-azurerm-tools -y
 choco install vscode-markdownlint -y
+choco install vscode-drawio -y
 choco install microsoftazurestorageexplorer -y
 choco install azure-cli -y
 choco install dropbox -y
