@@ -26,7 +26,8 @@ Set-Alias -Name "k" -Value "kubectl"
 $defaultFolder = "C:\Code\"
 
 if (Test-Path($defaultFolder)) {
-  cd $defaultFolder
+  # Disabled since Azure Functions doesn't like this - https://github.com/microsoft/vscode-azurefunctions/issues/1260#issuecomment-489612400
+  # cd $defaultFolder
 }
 
 # Chocolatey profile
