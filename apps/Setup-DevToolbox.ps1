@@ -16,6 +16,7 @@ choco install microsoft-teams -y
 choco install notepadplusplus -y
 choco install lightshot -y
 choco install linqpad -y
+choco install octant -y
 choco install slack -y
 choco install toggl -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install vscode -y
