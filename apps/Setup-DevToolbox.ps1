@@ -46,7 +46,7 @@ choco install postman -y
 choco install fiddler -y
 choco install grammarly -y
 choco install keepass -y
-choco install keepass-plugin-keeanywhere -y
+choco install keepass-plugin-keecloud -y
 choco install winmerge -y
 choco install vlc -y
 choco install paint.net -y
