@@ -7,6 +7,7 @@ choco install 1password -y
 choco install 1password4 -y
 choco install 7zip -y
 choco install adobereader -y
+choco install azure-cli -y
 choco install ccleaner -y
 choco install conemu -y
 choco install franz -y
@@ -28,8 +29,9 @@ choco install kubernetes-cli -y
 choco install docker-cli -y
 choco install docker-desktop -y
 choco install docker-compose -y
-choco install minikube -y
 choco install docker-kitematic -y
+choco install microsoft-windows-terminal -y
+choco install minikube -y
 choco install vscode-docker -y
 choco install vscode-icons -y
 choco install vscode-csharp -y
@@ -38,7 +40,6 @@ choco install vscode-azurerm-tools -y
 choco install vscode-markdownlint -y
 choco install vscode-drawio -y
 choco install microsoftazurestorageexplorer -y
-choco install azure-cli -y
 choco install dropbox -y
 choco install firefox -y
 choco install git -y
