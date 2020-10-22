@@ -16,6 +16,7 @@ choco install hugo-extended -y
 choco install jekyll -y
 choco install microsoft-teams -y
 choco install notepadplusplus -y
+choco install lens -y
 choco install lightshot -y
 choco install linqpad -y
 choco install octant -y
