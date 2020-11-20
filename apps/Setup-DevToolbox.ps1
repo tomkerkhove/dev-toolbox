@@ -15,6 +15,7 @@ choco install gh -y
 choco install hugo-extended -y
 choco install jekyll -y
 choco install k9s -y
+choco install gsudo -y
 choco install microsoft-teams -y
 choco install notepadplusplus -y
 choco install lens -y
