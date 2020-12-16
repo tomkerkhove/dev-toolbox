@@ -7,6 +7,7 @@ choco install 1password -y
 choco install 1password4 -y
 choco install 7zip -y
 choco install adobereader -y
+choco install act-cli -y
 choco install azure-cli -y
 choco install ccleaner -y
 choco install conemu -y
