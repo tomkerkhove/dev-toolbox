@@ -35,9 +35,10 @@
                     "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
-                        "style": "folder"
+                        "style": "agnoster_full"
                     }
-                }, {
+                }, 
+                {
                     "type": "git",
                     "style": "powerline",
                     "powerline_symbol": "",
@@ -53,20 +54,6 @@
                         "display_upstream_icon": true
                     }
                 }, {
-                    "type": "node",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#ffffff",
-                    "foreground_templates": null,
-                    "background": "#6CA35E",
-                    "background_templates": null,
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
-                    "properties": {
-                        "prefix": "  "
-                    }
-                }, {
                     "type": "shell",
                     "style": "powerline",
                     "powerline_symbol": "",
@@ -80,18 +67,6 @@
                     "properties": {
                         "prefix": " ﲵ "
                     }
-                }, {
-                    "type": "root",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#193549",
-                    "foreground_templates": null,
-                    "background": "#ffff66",
-                    "background_templates": null,
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
-                    "properties": null
                 }, {
                     "type": "exit",
                     "style": "diamond",
