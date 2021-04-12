@@ -8,6 +8,7 @@ Kudos to [Sam Neirinck](https://github.com/samneirinck) for showing me all of th
 > Setup-PowerShellEnvironment.ps1
 ```
 - Install the [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline) font.
+- Install the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts) font.
 
 ## Preparing new PowerShell instances
 You can automatically load all preferences via the following approach.
@@ -19,16 +20,20 @@ You can automatically load all preferences via the following approach.
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module posh-docker
-Set-Theme Paradox
+Import-Module Terminal-Icons
 
-Set-Alias -Name "k" -Value "kubectl"
+Set-PoshPrompt -Theme $Home\.oh-my-posh.omp.json
 
 $defaultFolder = "C:\Code\"
 
-if (Test-Path($defaultFolder)) {
-  # Disabled since Azure Functions doesn't like this - https://github.com/microsoft/vscode-azurefunctions/issues/1260#issuecomment-489612400
-  # cd $defaultFolder
+Set-Alias -Name "k" -Value "kubectl"
+Set-Alias -Name "g" -Value "git"
+
+if (Test-Path("C:\Code\")) {
+    #cd C:\Code\
 }
+
+cls
 
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
