@@ -13,6 +13,7 @@ choco install ccleaner -y
 choco install conemu -y
 choco install franz -y
 choco install gh -y
+choco install golang -y
 choco install hugo-extended -y
 choco install jekyll -y
 choco install k9s -y
