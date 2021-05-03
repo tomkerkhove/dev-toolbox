@@ -31,7 +31,7 @@
             // Put settings here that you want to apply to all profiles.
             // "foreground": "#b58900",
             "background":"#004354",
-            "fontFace": "Cascadia Code PL",
+            "fontFace": "CaskaydiaCove Nerd Font",
             "cursorShape":"filledBox",
             "startingDirectory":"c:/code"
         },
@@ -62,6 +62,12 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -89,6 +95,8 @@
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
-        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
+        { "command": { "action": "splitPane", "split": "horizontal"}, "keys": "alt+shift+-" },
+        { "command": { "action": "splitPane", "split": "vertical"}, "keys": "alt+shift+plus" }
     ]
 }
