@@ -1,169 +1,169 @@
 {
-	"final_space": true,
-	"osc99": false,
-	"console_title": false,
-	"console_title_style": "",
-	"console_title_template": "",
-	"blocks": [{
-			"type": "prompt",
-			"alignment": "left",
-			"horizontal_offset": 0,
-			"vertical_offset": 0,
-			"segments": [{
-					"type": "session",
-					"style": "diamond",
-					"powerline_symbol": "",
-					"invert_powerline": false,
-					"foreground": "#ffffff",
-					"foreground_templates": null,
-					"background": "#c386f1",
-					"background_templates": null,
-					"leading_diamond": "",
-					"trailing_diamond": "",
-					"properties": null
-				}, {
-					"type": "path",
-					"style": "powerline",
-					"powerline_symbol": "",
-					"invert_powerline": false,
-					"foreground": "#ffffff",
-					"foreground_templates": null,
-					"background": "#ff479c",
-					"background_templates": null,
-					"leading_diamond": "",
-					"trailing_diamond": "",
-					"properties": {
-						"prefix": "   ",
-						"style": "folder"
-					}
-				},
-				{
-					"type": "git",
-					"style": "powerline",
-					"powerline_symbol": "",
-					"invert_powerline": false,
-					"foreground": "#193549",
-					"foreground_templates": null,
-					"background": "#fffb38",
-					"background_templates": null,
-					"leading_diamond": "",
-					"trailing_diamond": "",
-					"properties": {
-						"prefix": "   ",
-						"display_stash_count": true,
-						"display_upstream_icon": true
-					}
-				}, {
-					"type": "exit",
-					"style": "diamond",
-					"powerline_symbol": "",
-					"invert_powerline": false,
-					"foreground": "#ffffff",
-					"foreground_templates": null,
-					"background": "#2e9599",
-					"background_templates": null,
-					"leading_diamond": "",
-					"trailing_diamond": "",
-					"properties": {
-						"always_enabled": true,
-						"color_background": true,
-						"display_exit_code": false,
-						"error_color": "#f1184c",
-						"prefix": "\u003ctransparent\u003e\u003c/\u003e "
-					}
-				}
-			]
-		},
-		{
-			"type": "prompt",
-			"alignment": "right",
-			"horizontal_offset": 0,
-			"vertical_offset": 0,
-			"segments": [{
-					"type": "shell",
-					"style": "plain",
-					"foreground": "#ffffff",
-					"background": "#0077c2",
-					"properties": {
-						"prefix": "<#0077c2,transparent>\uE0B6</>  ",
-						"postfix": " <transparent,#0077c2>\uE0B2</>"
-					}
-				},
-				{
-					"type": "battery",
-					"style": "powerline",
-					"invert_powerline": true,
-					"powerline_symbol": "\uE0B2",
-					"foreground": "#ffffff",
-					"background": "#f36943",
-					"properties": {
-						"battery_icon": "",
-						"discharging_icon": " ",
-						"charging_icon": " ",
-						"charged_icon": " ",
-						"color_background": true,
-						"charged_color": "#4caf50",
-						"charging_color": "#40c4ff",
-						"discharging_color": "#ff5722",
-						"postfix": " "
-					}
-				},
-				{
-					"type": "time",
-					"style": "diamond",
-					"invert_powerline": true,
-					"leading_diamond": "\uE0B2",
-					"trailing_diamond": "\uE0B4",
-					"background": "#2e9599",
-					"foreground": "#111111"
-				}
-			]
-		},
-		{
-			"type": "newline",
-			"alignment": "",
-			"horizontal_offset": 0,
-			"vertical_offset": 0,
-			"segments": null
-		},
-		{
-			"type": "prompt",
-			"alignment": "left",
-			"horizontal_offset": 0,
-			"vertical_offset": 0,
-			"segments": [{
-				"type": "kubectl",
-				"style": "diamond",
-				"powerline_symbol": "\uE0B0",
-				"foreground": "#000000",
-				"background": "#ebcc34",
-				"leading_diamond": "",
-				"trailing_diamond": "",
-				"properties": {
-					"prefix": " \uFD31 ",
-					"template": "Kubernetes {{.Context}} cluster {{if .Namespace}}- {{.Namespace}}{{end}}"
-				}
-			}, {
-				"type": "az",
-				"style": "powerline",
-				"powerline_symbol": "\uE0B0",
-				"foreground": "#000000",
-				"background": "#9ec3f0",
-				"leading_diamond": "",
-				"trailing_diamond": "",
-				"properties": {
-					"display_id": false,
-					"display_name": true,
-					"info_separator": " @ ",
-					"prefix": " \uFD03  "
-				}
-			}]
-		}, {
-			"type": "newline",
-			"alignment": "",
-			"horizontal_offset": 0,
-			"vertical_offset": 0,
-			"segments": null
-		}
-	]
+    "final_space": true,
+    "osc99": false,
+    "console_title": false,
+    "console_title_style": "",
+    "console_title_template": "",
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": [{
+                "type": "session",
+                "style": "diamond",
+                "powerline_symbol": "",
+                "invert_powerline": false,
+                "foreground": "#ffffff",
+                "foreground_templates": null,
+                "background": "#c386f1",
+                "background_templates": null,
+                "leading_diamond": "",
+                "trailing_diamond": "",
+                "properties": null
+            }, {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "invert_powerline": false,
+                    "foreground": "#ffffff",
+                    "foreground_templates": null,
+                    "background": "#ff479c",
+                    "background_templates": null,
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
+                    "properties": {
+                        "prefix": "   ",
+                        "style": "folder"
+                    }
+                }, 
+                {
+                    "type": "git",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "invert_powerline": false,
+                    "foreground": "#193549",
+                    "foreground_templates": null,
+                    "background": "#fffb38",
+                    "background_templates": null,
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
+                    "properties": {
+                        "prefix": "   ",
+                        "display_stash_count": true,
+                        "display_upstream_icon": true
+                    }
+                }, {
+                    "type": "exit",
+                    "style": "diamond",
+                    "powerline_symbol": "",
+                    "invert_powerline": false,
+                    "foreground": "#ffffff",
+                    "foreground_templates": null,
+                    "background": "#2e9599",
+                    "background_templates": null,
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
+                    "properties": {
+                        "always_enabled": true,
+                        "color_background": true,
+                        "display_exit_code": false,
+                        "error_color": "#f1184c",
+                        "prefix": "\u003ctransparent\u003e\u003c/\u003e "
+                    }
+                }
+            ]
+        }, 
+        {
+            "type": "prompt",
+            "alignment": "right",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": [{
+                "type": "shell",
+                "style": "plain",
+                "foreground": "#ffffff",
+                "background": "#0077c2",
+                "properties": {
+                  "prefix": "<#0077c2,transparent>\uE0B6</>  ",
+                  "postfix": " <transparent,#0077c2>\uE0B2</>"
+                }
+              },
+              {
+                "type": "battery",
+                "style": "powerline",
+                "invert_powerline": true,
+                "powerline_symbol": "\uE0B2",
+                "foreground": "#ffffff",
+                "background": "#f36943",
+                "properties": {
+                  "battery_icon": "",
+                  "discharging_icon": " ",
+                  "charging_icon": " ",
+                  "charged_icon": " ",
+                  "color_background": true,
+                  "charged_color": "#4caf50",
+                  "charging_color": "#40c4ff",
+                  "discharging_color": "#ff5722",
+                  "postfix": " "
+                }
+              },
+              {
+                "type": "time",
+                "style": "diamond",
+                "invert_powerline": true,
+                "leading_diamond": "\uE0B2",
+                "trailing_diamond": "\uE0B4",
+                "background": "#2e9599",
+                "foreground": "#111111"
+              }]},
+            {
+            "type": "newline",
+            "alignment": "",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": null
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": [{
+                    "type": "kubectl",
+                    "style": "diamond",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#000000",
+                    "background": "#ebcc34",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
+                    "properties": {
+                        "prefix": " \uFD31 ",
+                        "template": "Kubernetes {{.Context}} cluster {{if .Namespace}}- {{.Namespace}}{{end}}"
+                    }
+                }, {
+                    "type": "az",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#000000",
+                    "background": "#9ec3f0",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
+                    "properties": {
+                        "display_id": false,
+                        "display_name": true,
+                        "info_separator": " @ ",
+                        "prefix": " \uFD03  "
+                    }
+                }
+            ]
+        }, {
+            "type": "newline",
+            "alignment": "",
+            "horizontal_offset": 0,
+            "vertical_offset": 0,
+            "segments": null
+        }
+    ]
 }
