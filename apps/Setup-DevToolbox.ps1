@@ -9,6 +9,7 @@ choco install 7zip -y
 choco install adobereader -y
 choco install act-cli -y
 choco install azure-cli -y
+choco install bicep -y
 choco install ccleaner -y
 choco install conemu -y
 choco install franz -y
