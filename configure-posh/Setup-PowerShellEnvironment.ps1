@@ -1,11 +1,17 @@
 # Install modules
+Write-Host "Installing posh-git..."
 Install-Module posh-git -Force
+Write-Host "Installing oh-my-posh..."
 Install-Module oh-my-posh -Force
+Write-Host "Installing posh-docker..."
 Install-Module posh-docker -Force
+Write-Host "Installing Terminal Icons..."
 Install-Module -Name Terminal-Icons -Force
 
 # Copy Oh My POSH template
-Get-Content .\.oh-my-posh.omp.json > $Home\.oh-my-posh.omp.json
+Write-Host "Copying oh-my-posh template..."
+Get-Content .\configure-posh\.oh-my-posh.omp.json > $Home\.oh-my-posh.omp.json
 
 # Copy default PowerShell startup
-Get-Content .\powershell.default > $PROFILE
+Write-Host "Configuring PowerShell startup..."
+Get-Content .\configure-posh\powershell.default > $PROFILE
