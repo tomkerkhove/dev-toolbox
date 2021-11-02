@@ -3,7 +3,7 @@ Import-Module oh-my-posh
 Import-Module posh-docker
 Import-Module Terminal-Icons
 
-Set-PoshPrompt -Theme $Home\.oh-my-posh.omp.json
+Set-PoshPrompt -Theme ~$Home\.oh-my-posh.omp.json
 
 $defaultFolder = "C:\Code\"
 
