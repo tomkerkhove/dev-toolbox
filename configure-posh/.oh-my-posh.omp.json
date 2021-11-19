@@ -1,9 +1,8 @@
 {
     "final_space": true,
-    "osc99": false,
-    "console_title": false,
-    "console_title_style": "",
-    "console_title_template": "",
+    "console_title": true,
+    "console_title_style": "template",
+    "console_title_template": "{{ .Shell }} in {{ .Folder }}",
     "blocks": [
         {
             "type": "prompt",
