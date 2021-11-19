@@ -1,8 +1,6 @@
 # Install modules
 Write-Host "Installing posh-git..."
 Install-Module posh-git -Force
-Write-Host "Installing oh-my-posh..."
-Install-Module oh-my-posh -Force
 Write-Host "Installing posh-docker..."
 Install-Module posh-docker -Force
 Write-Host "Installing Terminal Icons..."
