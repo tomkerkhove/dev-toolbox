@@ -30,11 +30,7 @@
                     "powerline_symbol": "",
                     "invert_powerline": false,
                     "foreground": "#ffffff",
-                    "foreground_templates": null,
                     "background": "#ff479c",
-                    "background_templates": null,
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "   ",
                         "style": "folder"
@@ -44,13 +40,10 @@
                     "type": "git",
                     "style": "powerline",
                     "powerline_symbol": "",
-                    "invert_powerline": false,
                     "foreground": "#193549",
-                    "foreground_templates": null,
                     "background": "#fffb38",
-                    "background_templates": null,
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "leading_diamond": "<transparent,background></>",
+                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "   ",
                         "display_stash_count": true,
@@ -66,14 +59,14 @@
                     "foreground_templates": null,
                     "background": "#2e9599",
                     "background_templates": null,
-                    "leading_diamond": "",
+                    "leading_diamond": "<transparent,background></>",
                     "trailing_diamond": "",
                     "properties": {
                         "always_enabled": true,
                         "color_background": true,
                         "display_exit_code": false,
                         "error_color": "#f1184c",
-                        "prefix": "\u003ctransparent\u003e\u003c/\u003e "
+                        "prefix": " "
                     }
                 }
             ]
