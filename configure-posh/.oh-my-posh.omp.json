@@ -133,7 +133,7 @@
                     "trailing_diamond": "",
                     "properties": {
                         "prefix": " \uFD31 ",
-                        "template": "Kubernetes {{.Context}} cluster {{if .Namespace}}- {{.Namespace}}{{end}}"
+                        "template": "Kubernetes {{.Context}} cluster {{if .Namespace}}- {{.Namespace}} namespace{{end}}"
                     }
                 },
                 {
