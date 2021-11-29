@@ -26,6 +26,7 @@ choco install lightshot -y
 choco install linqpad -y
 choco install octant -y
 choco install oh-my-posh -y
+choco install rsat -y # Remote Server Administration Tools which includes ServerManager such as enabling windows features
 choco install slack -y
 choco install snyk -y
 choco install toggl -y # Invalid checksum, override with --ignore-checksums if you want to
