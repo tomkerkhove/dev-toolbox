@@ -11,6 +11,12 @@ choco install act-cli -y
 choco install azure-cli -y
 choco install bicep -y
 choco install ccleaner -y
+choco install docker-cli -y
+choco install docker-desktop -y
+choco install docker-compose -y
+choco install docker-kitematic -y
+choco install dive -y
+choco install dropbox -y
 choco install franz -y
 choco install gh -y
 choco install golang -y
@@ -19,7 +25,6 @@ choco install jekyll -y
 choco install k9s -y
 choco install gsudo -y
 choco install microsoft-teams -y
-choco install notepadplusplus -y
 choco install lens -y
 choco install lightshot -y
 choco install linqpad -y
@@ -35,10 +40,6 @@ choco install spotify -y # Invalid checksum, override with --ignore-checksums if
 choco install servicebusexplorer -y
 choco install jetbrainstoolbox -y
 choco install kubernetes-cli -y
-choco install docker-cli -y
-choco install docker-desktop -y
-choco install docker-compose -y
-choco install docker-kitematic -y
 choco install microsoft-windows-terminal -y
 choco install minikube -y
 choco install vscode-docker -y
@@ -49,7 +50,6 @@ choco install vscode-azurerm-tools -y
 choco install vscode-markdownlint -y
 choco install vscode-drawio -y
 choco install microsoftazurestorageexplorer -y
-choco install dropbox -y
 choco install firefox -y
 choco install git -y
 choco install postman -y
